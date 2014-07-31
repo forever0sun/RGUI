@@ -1,0 +1,20 @@
+一、数据类型及函数名称前加上RGUI_,以区别于其它平台上的数据类型及函数名称。
+
+    1.数据类型:
+      RGUI_S8            有符号8位值
+      RGUI_U8            无符号8位值
+      RGUI_S16           有符号16位值
+      RGUI_U16           无符号16位值
+      RGUI_S32           有符号32位值
+      RGUI_U32           无符号32位值
+
+
+    2.函数名称前加上RGUI_,如RGUI_CreateWindow(),RGUI_TextOut()等。
+
+
+    3.消息类型前面前加RGUI_WM_,如RGUI_WM_PAINT、RGUI_WM_DESTROYWINDOW等。
+
+二、头文件及源文件名称前面加上rgui_,以区别其它平台头文件及源文件名。
+    如:rgui_type.h,,rgui_config.h,,rgui_kernel.h,rgui_kernel.c,
+    rgui_api.h,rgui_api.c等.
+   
